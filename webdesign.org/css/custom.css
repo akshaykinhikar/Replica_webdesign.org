@@ -4,5 +4,65 @@
 
 .sec1{
 	background-color: #FFFFE6;
+	height: 60px;
+}
+
+		/*navbar*/
+.menubarStyle{
+	background-color: #563D7C;
+
+}
+
+.menus_sec3{
+	font-size:1.2em;
+	color:#FFF;
+	text-align:right;
+	padding:20px 20px;
+}
+
+.font_below_easystyle{
+	font-size:1.6em;
+	/*text-align:center;*/
+	font-weight:bold;
+	color:#FFF;
+}
+
+.desc_font_below_easystyle{
+	color: #FFF;
+	text-transform: uppercase;
+}
+
+.topics_title{
+	font-weight:bold;
+	font-size:1.3em;
+	color:#FFF;
+	text-align:center;
+	text-transform: uppercase;
+}
+.topics_title_description{
+	font-size:0.7em;
+	color:#898989;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.footer_icons{
+	width: 50px;
+	height: 50px;
+	background-color:#bebebe;
+	border-radius: 50%;
+    display: block;
+    padding-bottom: 4px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+@media(max-width:500px){
+	.easy_start{
+		margin-bottom:190px;
+		font-size:0.4em;
+		padding:20px 10px;
+	}
+
 }
 
