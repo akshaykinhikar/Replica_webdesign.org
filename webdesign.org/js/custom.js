@@ -1,4 +1,6 @@
 $(document).ready(function(){
+
+	$(".navbar-toggle").
     $("#toggle_sec1_button").click(function(){
     	// alert("toggle working");
 
@@ -25,3 +27,5 @@ $(document).ready(function(){
                 }
     });
 });
+
+
