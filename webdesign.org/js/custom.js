@@ -8,9 +8,10 @@ $(document).ready(function(){
                     // alert("visible");
                     $("#sec").hide(1000);
         			$(".menubarStyle").css("margin-top","0px");
-        			alert("adding css");
+        			// alert("adding css");
                     $("#sec_three").css("margin-top","75px");
                     $("#sec_four").css("margin-top","165px");
+                    $("#triangle_image").css("top","45");
 
                 }
                 else
@@ -20,6 +21,7 @@ $(document).ready(function(){
         			$(".menubarStyle").css("margin-top","50px");
         			$("#sec_three").css("margin-top","125px");
                     $("#sec_four").css("margin-top","215px");
+                    $("#triangle_image").css("top","115");
                 }
     });
 });
