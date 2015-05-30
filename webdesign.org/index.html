@@ -22,8 +22,10 @@
   <body>
 
   <!-- ++++++++++++++ section 1 hidden +++++++++++++++++++++++ -->
-  <div class="row sec1 navbar-fixed-top">
-    <div class="container">
+   <button id="toggle_sec" class="btn btn-default  " style="position:absolute;"> hiiii</button>
+   <img src="static/images/triangle.png" style="position: absolute; top: 85px; left: 1220px; width: 70px; height: 70px;" alt="">
+  <div id="sec"class="row  navbar-fixed-top">
+    <div class="container section1">
       <div class="col-sm-4 col-xs-4" style="padding-top:10px;">
          Website Template #49639
       </div>
@@ -35,8 +37,9 @@
         <img src="static/images/tv_icon.png" style="width:60px; padding:10px;" alt="">
       </div>
       <div class="col-sm-4 col-xs-4" style="text-align:center; background-color:#">
-        <button class="btn btn-primary" style="font-size:1em; font-weight:bold">Buy Now $75</button>
+        <!-- <button class="btn btn-primary" style="font-size:1em; font-weight:bold">Buy Now $75</button> -->
       </div>
+
     </div>
   </div>
   <!-- ++++++++++++++ section 1 hidden ends+++++++++++++++++++++++ -->
@@ -44,6 +47,7 @@
 
   <!-- ++++++++++++++ section 2 hidden +++++++++++++++++++++++ -->
   <nav class="navbar navbar-default navbar-fixed-top menubarStyle" style="margin-top:50px;">
+
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -254,11 +258,19 @@ IL 60604-2340</p>
     <!-- ++++++++++++++ section 3 navbar ends +++++++++++++++++++++++ -->
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/custom.js"></script>
+            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+            <!-- Include all compiled plugins (below), or include individual files as needed -->
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/custom.js"></script>
+    <script>
+      $(document).ready(function(){
+          $("#toggle_sec").click(function(){
+              $("#sec").toggle();
+          });
+      });
+    </script>
+
+
   </body>
 </html>
